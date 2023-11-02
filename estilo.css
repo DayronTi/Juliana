@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'harry';
+    src: url('./fontes/HarryPotter-ov4z.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    width: 100%;
+    min-height: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+    background-image: url(./imagens/harry-potter-ranking-filmes-camara-secreta.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    
+}
+
+header h1 {
+    font-family: 'harry';
+    letter-spacing: 3px;
+}
+
+header img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+main {
+    margin-top: 400px;
+    background-color: rgba(0, 0, 0, 0.568);
+    display: flex;
+    flex-direction: column;
+}
+
+main #videoNosso {
+    width: 200px;
+    margin: auto;
+}
+
+main #video2 {
+    width: 100%;
+}
+
+main #video2 .gato {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+}
+
+main div .beijjos {
+    font-family: 'harry';
+    letter-spacing: 3px;
+}
